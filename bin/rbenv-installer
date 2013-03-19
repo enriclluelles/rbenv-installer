@@ -26,9 +26,12 @@ fi
 PLUGINS=(
   "sstephenson:rbenv-vars"
   "sstephenson:ruby-build"
+  "sstephenson:rbenv-default-gems"
   "fesplugas:rbenv-installer"
   "fesplugas:rbenv-bootstrap"
   "rkh:rbenv-update"
+  "jamis:rbenv-gemset"
+  "rmm5t:rbenv-rbx"
 )
 
 for plugin in ${PLUGINS[@]} ; do
